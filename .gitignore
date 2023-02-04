@@ -1,0 +1,5 @@
+# Operating System File
+.DS_Store
+
+# Dependencies Folder
+node_modules/
