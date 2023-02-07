@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,10 @@
     <meta name="description" content="Meeti y aprendiendo bootsrap 5 y SASS.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/style.css">
 </head>
+
 <body>
 
     <header class="container-xl header">
@@ -29,8 +31,162 @@
 
     <section class="container-xl">
         <h2 class="fs-1 text-center">How does Meeti work.</h2>
+        <p class="w-50 text-center mx-auto">Meet new people who share your topics of interest through online and
+            face-to-face events. Create your account is for free.</p>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="img/icon_1.svg" alt="Icon Image" class="img-fluid">
+                <h3 class="text-secondary text-center fs-4">Join to a Gropp.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus rerum
+                    quaerat fugit similique dolorem iure distinctio </p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/icon_2.svg" alt="Icon Image" class="img-fluid">
+                <h3 class="text-secondary text-center fs-4">Manage attendees.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus rerum
+                    quaerat fugit similique dolorem iure distinctio </p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/icon_3.svg" alt="Icon Image" class="img-fluid">
+                <h3 class="text-secondary text-center fs-4">Grow your community.</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus rerum
+                    quaerat fugit similique dolorem iure distinctio </p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-5">
+            <a href="" class="btn btn-secondary text-white">Joint up.</a>
+        </div>
     </section>
 
+    <main class="container-xl events mt-5">
+        <div class="d-flex justify-content-between">
+            <h2 class="">Events coming soon.</h2>
+            <a href="#" class="text-secondary text-decoration-none d-none d-sm-block">Explore more events.  </a>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/event_1.jpg" alt="Event Image" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">February 8th, 8:00 p.m.</p>
+                        <h3 class="card-title fs-5">Design of apps with swift.</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicin</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col ends -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/event_2.jpg" alt="Event Image" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">June 15th, 2:00 p.m.</p>
+                        <h3 class="card-title fs-5">Marketing on Twitter.</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicin</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col ends -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/event_3.jpg" alt="Event Image" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">May 27th, 10:30 3.m.</p>
+                        <h3 class="card-title fs-5">Online sales..</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicin</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col ends -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/event_4.jpg" alt="Event Image" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">August 18th, 12:00 p.m.</p>
+                        <h3 class="card-title fs-5">Everything about Bitcoin.</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicin</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col ends -->
+        </div>
+    </main>
+
+    <section class="stores container-xl mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/app_1.png" alt="Imagen App" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="img/logo.svg" alt="Logo Meeti" class="logo mt-5 d-block mx-auto">
+                <p class="text-center fw-bold mt-5 fs-4">keep connected. Download the App.</p>
+                <div class="d-flex gap-4">
+                    <div class="col">
+                        <a href="#">
+                            <img src="img/android-store.svg" alt="Android Store Icon" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <img src="img/apple-store.svg" alt="Apple Store Icon" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"> <img src="img/app_2.png" alt="Imagen App" class="img-fluid"></div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark mt-5 pt-4 pb-2 text-white">
+        <div class="container-xl">
+            <div class="d-flex align-items-center gap-4 border-bottom pb-4">
+                <p class="m-0 fw-bold">Create your first Meete group.</p>
+
+                <a href="#" class="fw-bold btn btn-dark border">First Steps</a>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <p class="fs-5">Your account</p>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link">Sign Up</a>
+                        <a href="#" class="nav-link">Sign In</a>
+                        <a href="#" class="nav-link">Get Help</a>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-5">Discover</p>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link">Groups</a>
+                        <a href="#" class="nav-link">Calendar</a>
+                        <a href="#" class="nav-link">Topics</a>
+                        <a href="#" class="nav-link">Cities</a>
+                        <a href="#" class="nav-link">Online Events</a>
+                        <a href="#" class="nav-link">Local Guides</a> 
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-5">Meeti</p>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">Meeti</a>
+                        <a href="#" class="nav-link">Jobs</a>
+                        <a href="#" class="nav-link">Applications</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="d-flex flex-column mt-5 flex-md-row gap-5 align-items-md-center">
+                <p class="m-0">Meeti</p>
+                <nav class="nav flex-column flex-md-row">
+                    <a href="#" class="nav-link me-4">About</a>
+                    <a href="#" class="nav-link me-4">Blog</a>
+                    <a href="#" class="nav-link me-4">Meeti</a>
+                    <a href="#" class="nav-link me-4">Jobs</a>
+                    <a href="#" class="nav-link me-4">Applications</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

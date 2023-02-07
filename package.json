@@ -1,0 +1,23 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "Understanding Bootstrap 5 with Sass. ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoJCruz/Meeti.git"
+  },
+  "author": "Gerardo J. Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardoJCruz/Meeti/issues"
+  },
+  "homepage": "https://github.com/GerardoJCruz/Meeti#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
+  }
+}
